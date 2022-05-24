@@ -9,6 +9,7 @@ function Header(){
                 <p className='detail'>
                     Our Machine Learning Model can Identify the Rice Leaf Problems within a Sec and Gives you Reliable Data about Disease that Occur   
                 </p>
+                <a href='#'className='dw-btn'>Download</a> 
             </div>
             <Navbar/>
         </div>

@@ -1,7 +1,7 @@
 body{
   margin:0px;
   padding: 0px;
-  background-color: #ffffff;
+  background-color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,7 +29,7 @@ input{
 
 #main{
   width:100%;
-  height:800px;
+  height:100vh;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,3 +119,97 @@ nav .btn-menu,
   color:#3c6e71;
 }
 
+.dw-btn{
+	width:140px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 360px;
+  background-color: #3c6e71;
+  border-radius: 10px;
+	color:#ffffff;
+}
+
+#features{
+  width:100%;
+  height:100vh;
+  box-sizing: border-box;
+  font-family: calibri;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px ;
+  background-size: cover;
+  background-image: url('./components/images/features-bckg.png');
+}
+
+.features-header{
+  margin-top: 0%;
+  font-family: 'Montserrat';
+	width: 500px;
+}
+
+.features-header h1{
+  color:#3c6e71;
+  font-size: 40px;
+  margin-bottom: -5px;
+}
+
+.features-header p{
+  color: #f8b62b;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.features-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.features-item{
+  background-color: #ffffff;
+  width:330px;
+  height: 450px;
+  margin: 15px 20px 20px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease-in-out;
+  position: relative;
+}
+
+.features-img{
+  width: 100%;
+  height: 70%;
+
+}
+.features-img img{
+  padding: 10px;
+  width:100%;
+  height: 100%;
+
+}
+
+.a-box:hover{
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+.features-text{
+  width: 100%;
+  height: 20%;
+  background-color:#ffffff;
+  display:flex;
+  justify-content: center;
+  margin-top: -20px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.features-text p{
+  margin-top: -10px;
+}
