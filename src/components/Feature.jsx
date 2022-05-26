@@ -1,8 +1,8 @@
 import React from "react";
 import FeaturesItem from "./FeaturesItem";
-import featureimg1 from '../components/images/Features-01.png';
-import featureimg2 from '../components/images/Features-02.png';
-import featureimg3 from '../components/images/Features-03.png';
+import featureimg1 from '../components/images/features-01.png';
+import featureimg2 from '../components/images/features-02.png';
+import featureimg3 from '../components/images/features-03.png';
 
 function Feature(){
     return(
@@ -13,7 +13,7 @@ function Feature(){
             </div>
             <div className="features-container">
                 <FeaturesItem image={featureimg1} title='Fast Result' description='isi text disini' />
-                <FeaturesItem image={featureimg2} title='Machine Learning Data' description='isi text disini' />
+                <FeaturesItem image={featureimg2} title='Machine Learn Data' description='isi text disini' />
                 <FeaturesItem image={featureimg3} title='Accuracy' description='isi text disini' />
             </div>
         </div>

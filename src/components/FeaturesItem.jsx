@@ -4,7 +4,7 @@ function FeaturesItem(props){
     return(
         <div className='features-item'>
             <div className='features-img'>
-                <img src={props.image}/>
+                <img src={props.image} alt="featurespic"/>
             </div>
             <div className='features-text'>
                 <h2>{props.title}</h2>
