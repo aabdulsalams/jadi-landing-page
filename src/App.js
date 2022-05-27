@@ -5,6 +5,7 @@ import Sponsored from './components/Sponsor';
 import Interface from './components/Interface';
 import Download from './components/Download';
 import Footer from './components/Footer';
+import Aboutus from './components/About';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Interface/>
       <Sponsored/>
       <Download/>
+      <Aboutus/>
       <Footer/>
     </div>
   );
