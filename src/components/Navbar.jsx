@@ -21,7 +21,7 @@ function Navbar(){
                 <img src={logo} alt=''/>
            </a>
            <input type='checkbox' className='btn-menu' id='btn-menu'/>
-           <label className='icon-menu' for='menu-btn'>
+           <label className='icon-menu' for='btn-menu'>
                <span className='nav-icon'></span>
            </label>
            <ul className='home-menu'>

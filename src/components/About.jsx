@@ -14,42 +14,54 @@ function About(){
                 <h3 class="deskripsi">You can relay on our amazing features list and also our customer services</h3>
             </div>
 
-            <div class='about-profiles'>
-                <div class="profile-item">
+            <div className='about-profiles'>
+                <div className="profile-item">
                     <img src={team1} alt='azwar' class="profile-img"/>
-                    <h2 class="user-name">Azwar {"\n"} Anas</h2>
-                    <h3 class="user-path">Mobile Development</h3>
-                    <p>Universitas Negri Makassar</p>
+                    <div className="profile-desc">
+                        <h2 class="user-name">Azwar {"\n"} Anas</h2>
+                        <h3 class="user-path">Mobile Development</h3>
+                        <p>Universitas Negri Makassar</p>
+                    </div>
                 </div>
                 <div class="profile-item">
                     <img src={team2} alt='dilla' class="profile-img"/>
-                    <h2 class="user-name">Hamdillah {"\n"} Deslawati</h2>
-                    <h3 class="user-path">Mobile Development</h3>
-                    <p>Politeknik Negeri Ujung Pandang</p>
+                    <div className="profile-desc">
+                        <h2 class="user-name">Hamdillah {"\n"} Deslawati</h2>
+                        <h3 class="user-path">Mobile Development</h3>
+                        <p>Politeknik Ujung Pandang</p>
+                    </div>
                 </div>
                 <div class="profile-item">
                     <img src={team3} alt='salam' class="profile-img"/>
-                    <h2 class="user-name">Andi Abdul {"\n"} Salam</h2>
-                    <h3 class="user-path">Cloud Computing</h3>
-                    <p>Politeknika Elektro Surabaya</p>
+                    <div className="profile-desc"> 
+                        <h2 class="user-name">Andi Abdul {"\n"} Salam</h2>
+                        <h3 class="user-path">Cloud Computing</h3>
+                        <p>Politeknika {"\n"} Elektro Surabaya</p>
+                    </div>
                 </div>
-                <div class="profile-item">
+                    <div class="profile-item">
                     <img src={team4} alt='fadhil' class="profile-img"/>
-                    <h2 class="user-name">Fadhilah Winarno</h2>
-                    <h3 class="user-path">Cloud Computing</h3>
-                    <p>Universitas Udayana</p>
+                    <div className="profile-desc">
+                        <h2 class="user-name">Fadhilah {"\n"} Winarno</h2>
+                        <h3 class="user-path">Cloud Computing</h3>
+                        <p>Universitas Udayana</p>
+                    </div>
                 </div>
                 <div class="profile-item">
                     <img src={team5} alt='kolifah' class="profile-img"/>
-                    <h2 class="user-name">Nurul Nur {'\n'} Kholifah</h2>
-                    <h3 class="user-path">Machine Learning</h3>
-                    <p>Universitas Hasanuddin</p>
+                    <div className="profile-desc">
+                        <h2 class="user-name">Nurul Nur {'\n'} Kholifah</h2>
+                        <h3 class="user-path">Machine Learning</h3>
+                        <p>Universitas Hasanuddin</p>
+                    </div>
                 </div>
                 <div class="profile-item">
                     <img src={team6} alt='maxim' class="profile-img"/>
-                    <h2 class="user-name">Maxi Milian Cristoporus</h2>
-                    <h3 class="user-path">Machine Learning</h3>
-                    <p>Universitas Hasanuddin</p>
+                    <div className="profile-desc">
+                        <h2 class="user-name">Maxi Milian {"\n"} Cristoporus</h2>
+                        <h3 class="user-path">Machine Learning</h3>
+                        <p>Universitas Hasanuddin</p>
+                    </div>
                 </div>
             </div>
         </div>

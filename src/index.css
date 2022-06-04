@@ -131,6 +131,9 @@ nav .btn-menu,
   border-radius: 10px;
 	color:#ffffff;
 }
+.dw-btn:hover{
+  background-color: #f8b62b;
+}
 
 #features{
   width:100%;
@@ -188,8 +191,8 @@ nav .btn-menu,
 .features-img{
   width: 100%;
   height: 70%;
-
 }
+
 .features-img img{
   padding: 10px;
   margin-top: 30px;
@@ -205,7 +208,6 @@ nav .btn-menu,
 .features-text{
   width: 100%;
   height: 20%;
-  background-color:#ffffff;
   display:flex;
   justify-content: center;
   margin-top: -20px;
@@ -221,21 +223,15 @@ nav .btn-menu,
 #Sponsored{
   width:100%;
   height:20vh;
-  margin-top: 10px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position: 40%;
-  background-size: 80%;
-  background-image: url('./components/images/sponsor-bckg.png');
+}
+
+.sponsored-bkg img{
+  width: 50%;
+  margin-top: -15px;
 }
 
 .sponsored-header h1{
-  position: absolute;
-  margin-top: 50px;
-  margin-left: 120px;
-  text-align-last: left;
-  left: 10%;
+  margin-top: 15px;
   color: red;
 }
 
@@ -372,7 +368,7 @@ nav .btn-menu,
 	margin: 0;
 }
 
-.footer-company-about span{
+.footer-team-about span{
 	display: block;
 	color:  #ffffff;
 	font-size: 18px;
@@ -391,20 +387,22 @@ nav .btn-menu,
 
 .about-header {
   font-family: "Montserrat", sans-serif;
-	color: #8d97ad;
+	color: #f8b62b;
   font-weight: 300;
   padding: 30px;
   margin-top: 20px;
 }
 
 .about-header h1, .about-header h2, .about-header h3 {
-  color: #3e4555;
+  color: #3c6e71;
+  font-size: 40px;
 }
 
 .about-header .deskripsi {
-    color: #8d97ad;
-    line-height: 24px;
-		font-size: 16px;
+  color: rgb(234, 61, 61);
+  line-height: 24px;
+  margin-top: -10px;
+  font-size: 16px;
 }
 
 .about-profiles {
@@ -461,3 +459,258 @@ nav .btn-menu,
   font-size: 17px;
   margin-top: 45px;
 }
+
+/* Responsive Layout */
+@media(max-width:1200px){
+  .icon-menu{
+    display:block;
+  }
+  nav{
+      justify-content: space-between;
+      height: 65px;
+      padding: 0px 30px;
+  }
+  .logo img{
+      width:120px;
+  }
+  .dw-btn{
+      margin: 0;
+  }
+  .home-menu{
+      display:none;
+      position:absolute;
+      top:65px;
+      left:0px;
+      background-color:#FFFFFF;
+      border-bottom:4px solid #3c6e71;
+      width:100%;
+      padding:0px;
+      margin:0px;
+  }
+  .home-menu li{
+      width:100%;
+  }
+  nav .home-menu li a{
+      width:100%;
+      height:40px;
+      justify-content: center;
+      align-items: center;
+      margin:0px;
+      padding: 25px;
+      border:1px solid rgba(38,38,38,0.03);
+  }
+  nav .icon-menu{
+      cursor:pointer;
+      float:right;
+      padding:28px 20px;
+      position:relative;
+      user-select: none;
+  }
+  nav .icon-menu .nav-icon{
+      background-color:#333333;
+      display:block;
+      height:2px;
+      position:relative;
+      transition: background 0.2s ease-out;
+      width:18px;
+  }
+  nav .icon-menu .nav-icon:before,
+  nav .icon-menu .nav-icon:after{
+      background:#333;
+      content:'';
+      display:block;
+      height:100%;
+      position:absolute;
+      transition:all ease-out 0.2s;
+      width:100%;
+  }
+  nav .icon-menu .nav-icon:before{
+      top:5px;
+  }
+  nav .icon-menu .nav-icon:after{
+      top:-5px;
+  }
+  nav .btn-menu:checked ~ .icon-menu .nav-icon{
+      background:transparent;
+  }
+  nav .btn-menu:checked ~ .icon-menu .nav-icon:before{
+      transform: rotate(-45deg);
+      top:0;
+  }
+  nav .btn-menu:checked ~ .icon-menu .nav-icon:after{
+      transform: rotate(45deg);
+      top:0;
+  }
+  nav .btn-menu{
+      display:none;
+  }
+  nav .btn-menu:checked ~ .home-menu{
+      display:block;
+  }
+}
+
+@media(max-width: 1200px) {
+  #about {
+    height: auto;
+  }
+  .about-profiles{
+    display: grid;
+    grid-template-columns: 250px 250px 200px;
+    align-items: center;
+  }
+  .profile-item{
+    text-align: left;
+    margin: 0px 0px 30px 0px;
+    font-size: 20px;
+  }
+  .profile-item .profile-img {
+    height: 180px;
+    width: 180px;
+  }
+  .profile-item .user-name{
+    margin-top: 5px;    
+  }
+  .profile-item .user-path{
+    margin-top: 25px;    
+  }
+  .profile-item .profile-desc{
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 15px;
+  }
+  
+}
+
+@media(max-width: 600px) {
+  #profile{
+    width: auto;
+  }
+  .about-profiles{
+    display: inline;
+  }
+  .profile-item .profile-desc{
+    display: inline-block;
+    margin-top: 5px;
+  }
+  .profile-item .profile-img {
+    height: 140px;
+    width: 140px;
+  }
+  .profile-item{
+    text-align: left;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  .profile-item .user-name{
+    font-size: medium;    
+  }
+  .profile-item .user-path{
+    font-size: small;   
+  }
+}
+
+@media(max-width:800px){
+  .footer-links a{
+    display: inline;
+  }
+  .footer-logo img{
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .footer-left,
+  .footer-center,
+  .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer .footer-center i{
+    margin-left: 0;
+  }
+}
+
+@media(max-width:1200px){
+  #main{
+    background-size: 1400px;
+		background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('./components/images/background.png');
+	}
+	.title{
+		left: 50%;
+		top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+	}
+  .title .detail{
+    color: #3c6e71;
+    font-size: 15px;
+    margin: 20px;
+    line-height: 23px;
+  }  
+  .title h1{
+    font-family:'Montserrat';
+    font-size: 36px;
+    margin:30px 30px 0px 30px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    color:#f8b62b;
+  }
+  .dw-btn{
+    width: 120px;
+	  height: 40px;
+    left: 40%;
+    text-align: center;
+    font-size: medium;
+    background-color: #3c6e71;
+  }
+
+  #features{
+		height:auto;
+  }
+  .features-container{
+		flex-wrap: wrap;
+    margin-bottom: 30px;
+	}
+  .features-header{
+    margin-top: 100px;
+  }
+  .features-item{
+		background-color: whitesmoke;
+    border-radius: 25px;
+    height: 390px;
+    width: 300px;
+	}
+  .features-img img{
+		object-fit:contain;
+    margin-top: -10px;
+    width: 260px;
+    height: 260px;
+  }
+  .features-header h1{
+    font-size: 35px;
+  }
+  .features-header p{
+    color: #0a2628;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 25px;
+  }
+
+  #Sponsored{
+    height: 200px;
+    width: auto;
+  }
+  .sponsored-header h1{
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  .sponsored-bkg img{
+    width: 450px;
+    margin-top: 0px;
+  }
+
+}
+
+      

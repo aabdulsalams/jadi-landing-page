@@ -31,7 +31,7 @@ function Footer(){
             </div>
 
             <div className="footer-right">
-                <p className="footer-company-about">
+                <p className="footer-team-about">
                 <span>About Jamin Padi</span>
                 isi text disini
                 </p>
