@@ -6,24 +6,19 @@ body{
   background-color: white;
   font-family: 'Montserrat', sans-serif;
 }
-
 *{
   box-sizing: border-box;
 }
-
 ul{
   list-style: none;
 }
-
 a{
   text-decoration: none;
 }
-
 button{
   outline: none;
   border: none;
 }
-
 input{
   outline: none;
   border: none;
@@ -37,11 +32,9 @@ input{
   background-size: cover;
   background-image: url('./components/images/background.png');
 }
-
 .logo img{
   width: 170px;
 }
-
 nav{
   display: flex;
   justify-content: space-around;
@@ -54,21 +47,17 @@ nav{
   background-color: white;
   transition: 0.2s ease-in-out;
 }
-
 nav.active{
   background-color: transparent;
 }
-
 nav ul{
   display: flex;
 }
-
 .active{
   background-color: #3c6e71;
   color: white;
   transition: all ease-out 0.2s;
 }
-
 nav ul li a{
   font-family: calibri;
   height:40px;
@@ -84,14 +73,12 @@ nav ul li a{
   border-radius: 3px;
   transition: 0.2s ease-in-out;
 }
-
 nav ul li a:hover{
   background-color: #f8b62b;
   color:aliceblue;
   box-shadow: 5px 10px 30px #b3cdce;
   transition: all ease 0.2s;
 }
-
 nav .btn-menu,
 .icon-menu{
 		display:none;
@@ -107,12 +94,11 @@ nav .btn-menu,
 	top: 55%;
 	transform: translate(-22%,-50%);
 }
-
 .title .detail{
   color: #f8b62b;
   font-size: 16px;
+  font-weight: bold;
 }
-
 .title h1{
   font-family:'Montserrat';
   font-size: 45px;
@@ -120,7 +106,6 @@ nav .btn-menu,
   letter-spacing: 1px;
   color:#3c6e71;
 }
-
 .hdr-btn{
 	width:140px;
 	height: 50px;
@@ -150,62 +135,62 @@ nav .btn-menu,
   background-size: cover;
   background-image: url('./components/images/features-bckg.png');;
 }
-
 .features-header{
   margin-top: 3%;
   font-family: 'Montserrat';
 }
-
 .features-header h1{
   color:#3c6e71;
   font-size: 40px;
-  margin-top: 0%;
+  margin-top: 5%;
   margin-bottom: -5px;
 }
-
 .features-header p{
   font-family: 'Montserrat';
   color: white;
   font-size: 17px;
+  font-weight: 600;
   margin-top: 15px;
 }
-
 .features-container{
   display: flex;
   justify-content: center;
   align-content: center;
   margin-top: 25px;
 }
-
 .features-item{
   background-color: #ffffff;
   width: 300px;
   height: 430px;
-  margin: 20px 20px 20px 20px;
+  margin: 10px 20px 20px 20px;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 10px 12px rgba(0,0,0,0.1);
   transition: 0.3s ease-in-out;
   position: relative;
 }
-
 .features-img{
   width: 350px;
   height: 350px;
 }
-
 .features-img img{
   padding: 10px;
-  margin-top: 10px;
+  margin-top: -5px;
   margin-right: 40px;
   width:80%;
   height: 80%;
 }
-
+.features-text h2{
+  margin-top: 40px;
+  color: #eeb437;
+}
+.features-text p{
+  margin: 20px;
+  font-size: 14.5px;
+}
 .a-box:hover{
   box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
 }
-
 .features-text{
   width: 100%;
   height: 10%;
@@ -216,24 +201,27 @@ nav .btn-menu,
   text-align: center;
   flex-direction: column;
 }
-
 .features-text p{
   margin-top: -10px;
 }
 
-#Sponsored{
+#sponsors{
   width:100%;
   height:20vh;
+  display: flex;
+  flex-direction: column;
 }
-
 .sponsored-bkg img{
-  width: 50%;
-  margin-top: -20px;
+  width: 45%;
+  margin-top: 10px;
 }
-
-.sponsored-header h1{
-  margin-top: 40px;
+.sponsor-header{
+  margin-top: 50px;
+}
+.sponsor-header h1{
+  font-size: 35px;
   color: red;
+  display: inline;
 }
 
 #interface{
@@ -249,7 +237,6 @@ nav .btn-menu,
   background-size: cover;
   background-image: url('./components/images/interface-bckg.png');
 }
-
 .interface-header{
   margin-top: 60px;
 }
@@ -261,9 +248,9 @@ nav .btn-menu,
   margin-top: -20px;
   color: red;
   font-size: 18px;
+  font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
-
 .interface-img{
   width: 100%;
   height: 100%;
@@ -338,6 +325,7 @@ nav .btn-menu,
   color: #3c6e71;
   font-size: 18px;
   margin-top: -25px;
+  font-weight: 600;
 }
 .dw-btn{
 	width:140px;
@@ -408,7 +396,7 @@ nav .btn-menu,
 
 .footer-links{
 	color:  #ffffff;
-	margin: -40px 70px -10px;
+  margin-top: -15px;
 	padding: 10px;
 }
 
@@ -542,9 +530,10 @@ nav .btn-menu,
 }
 
 .user-path {
-  padding-top: -10%;
+  padding-top: -10%; 
   color: #3c6e71;
 }
+
 .profile-item h2 {
   font-family: "Montserrat", sans-serif;
   white-space: pre-line;
@@ -555,6 +544,7 @@ nav .btn-menu,
   font-size: 14px;
   margin-top: -10px;
   color: rgb(217, 63, 63);
+  font-weight: bold;
 }
 
 .profile-item h3{
@@ -563,7 +553,7 @@ nav .btn-menu,
 }
 
 /* Responsive Layout */
-@media(max-width:1200px){
+@media(max-width:1000px){
   .icon-menu{
     display:block;
   }
@@ -651,7 +641,7 @@ nav .btn-menu,
   }
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1100px) {
   #about {
     height: auto;
   }
@@ -711,11 +701,9 @@ nav .btn-menu,
   }
 }
 
-
-@media(max-width:1200px){
+@media(max-width:1100px){
   #main{
-    background-size: 1400px;
-		background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('./components/images/background.png');
+		background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('./components/images/background-small.png');
 	}
 	.title{
 		left: 50%;
@@ -728,6 +716,7 @@ nav .btn-menu,
     font-size: 15px;
     margin: 20px;
     line-height: 23px;
+    font-weight: bold;
   }  
   .title h1{
     font-family:'Montserrat';
@@ -745,7 +734,7 @@ nav .btn-menu,
     font-size: medium;
     background-color: #3c6e71;
   }
-
+  
   #features{
 		height:auto;
   }
@@ -770,14 +759,17 @@ nav .btn-menu,
   }
   .features-header h1{
     font-size: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .features-header p{
-    color: #0a2628;
+    color: #142627;
     font-size: 15px;
     margin-top: 15px;
     margin-left: 60px;
     margin-right: 60px;
     line-height: 25px;
+    font-weight: bold;
   }
 
   #Sponsored{
@@ -785,13 +777,15 @@ nav .btn-menu,
     width: auto;
     margin-bottom: -50px;
   }
-  .sponsored-header h1{
-    font-size: 24px;
-    margin-top: 40px;
+  .sponsor-header{
+    margin-top: 10px;
+  }
+  .sponsor-header h1{
+    font-size: 28px;
   }
   .sponsored-bkg img{
     width: 450px;
-    margin-top: 0px;
+    margin-top: 15px;
   }
 
   #download{
@@ -820,6 +814,7 @@ nav .btn-menu,
     margin-top: -25px;
     margin-left: 30px;
     margin-right: 30px;
+    font-weight: bold;
     color: black;
   }
   .dw-btn{
@@ -879,5 +874,158 @@ nav .btn-menu,
     margin-left: 0;
   }
 }
+
+@media(max-width:480px){
+  #main{
+    height: 100vh;
+  }
+  .title{
+    width: 300px;
+  }
+  .title h1{
+    font-size: 33px;
+    margin: 0;
+  }
+  .title .detail{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .title .hdr-btn{
+    margin-left: -30px;
+  }
+
+  .features-header{
+    align-items: center;
+    margin-top: 50px;
+  }
+  .features-header h1{
+    padding: 0px 40px;
+    font-size: 34px;
+  }
+  .features-header p{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .features-item .features-text p{
+    font-size: 13px;
+  }
+  .features-item .features-text h2{
+    margin-top: 70px;
+  }
+
+  .interface-header{
+    align-items: center;
+  }
+  .interface-header h1{ 
+    font-size: 34px;
+  }
+  .interface-header p{ 
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: bold;
+  }
+
+  .sponsored-bkg img{
+    width: 330px;
+  }
+
+  #download{
+    height: 100vh;
+  }
+  .download-header{
+    width: auto;
+  }
+  .download-header h1{
+    text-align: left;
+    font-size: 45px;
+    margin-left: -40%;
+  }
+  .download-header h2{
+    width: 250px;
+    font-size: 40px;
+    margin-left: -20%;
+    margin-top: -40px;
+    margin-bottom: 40px;
+  }
+  .download-header p{
+    width: 300px;
+    margin-left: -40%;
+    margin-right: 50%;
+    font-weight: bold;
+  }
+  .download-header .dw-btn{
+    margin-left: -170px;
+  }
+
+  .about-header{
+    margin-top: -30px;
+    margin-bottom: -20px;
+  }
+  .about-profiles .profile-desc{
+    margin-top: 20px;
+  }
+  .about-profiles .profile-item{
+    margin-left: 15px;
+  }
+  .profile-item .profile-desc{
+    margin-left: 5px;
+  }
+  .features-container{
+    margin-top: 5px;
+  }
+  .features-container .features-item{
+    width: 250px;
+    height: 350px;
+  }
+  .features-item .features-img img{
+    width: 220px;
+    height: 220px;
+    margin-left: -50px;
+  }
+  .features-item .features-text{
+    margin-top: -130px;
+  }
+  #Sponsored{
+    height: 20vh;
+  }
+  .sponsor-header{
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .sponsor-header h1{
+    font-size: 20px;
+  }
+}
+
+@media(max-width:380px){
+  .download-header h1{
+    text-align: left;
+    font-size: 45px;
+    margin-left: -50%;
+  }
+  .download-header h2{
+    width: 250px;
+    font-size: 40px;
+    margin-left: -30%;
+    margin-top: -40px;
+    margin-bottom: 40px;
+  }
+  .download-header p{
+    width: 300px;
+    margin-left: -50%;
+    margin-right: 50%;
+    font-weight: bold;
+  }
+  .footer-left .footer-links{
+    display: inline;
+    width: 100px;
+    margin-top: -10px 0px;
+  }
+  .footer-left .footer-logo{
+    margin-bottom: -15px;
+    margin-left: -10px;
+  }
+}
+
 
       

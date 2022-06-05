@@ -4,7 +4,7 @@ import sponsor from '../components/images/sponsor-bckg.png';
 function Sponsored(){
     return(
         <div id='Sponsored'>
-            <div className="sponsored-header">
+            <div className="sponsor-header">
                 <h1>Supported By</h1>
             </div>
             <div className="sponsored-bkg">

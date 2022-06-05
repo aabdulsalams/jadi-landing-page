@@ -20,7 +20,8 @@ function About(){
                     <div className="profile-desc">
                         <h2 class="user-name">Azwar {"\n"} Anas</h2>
                         <h3 class="user-path">Mobile Development</h3>
-                        <p>Universitas Negri Makassar</p>
+                        <p>Universitas Negeri</p>
+                        <p>Makassar</p>
                     </div>
                 </div>
                 <div class="profile-item">
@@ -28,7 +29,8 @@ function About(){
                     <div className="profile-desc">
                         <h2 class="user-name">Hamdillah {"\n"} Deslawati</h2>
                         <h3 class="user-path">Mobile Development</h3>
-                        <p>Politeknik Ujung Pandang</p>
+                        <p>Politeknik Negeri</p>
+                        <p>Ujung Pandang</p>
                     </div>
                 </div>
                 <div class="profile-item">
@@ -36,7 +38,8 @@ function About(){
                     <div className="profile-desc"> 
                         <h2 class="user-name">Andi Abdul {"\n"} Salam Sabil</h2>
                         <h3 class="user-path">Cloud Computing</h3>
-                        <p>Politeknik Elektronika {"\n"} Negeri Surabaya</p>
+                        <p>Politeknik Elektronika</p>
+                        <p>Negeri Surabaya</p>
                     </div>
                 </div>
                     <div class="profile-item">
@@ -52,7 +55,8 @@ function About(){
                     <div className="profile-desc">
                         <h2 class="user-name">Nurul Nur {'\n'} Kholifah</h2>
                         <h3 class="user-path">Machine Learning</h3>
-                        <p>Universitas Hasanuddin</p>
+                        <p>Universitas</p>
+                        <p>Hasanuddin</p>
                     </div>
                 </div>
                 <div class="profile-item">
@@ -60,7 +64,8 @@ function About(){
                     <div className="profile-desc">
                         <h2 class="user-name">Maxi Milian {"\n"} Cristoporus</h2>
                         <h3 class="user-path">Machine Learning</h3>
-                        <p>Universitas Hasanuddin</p>
+                        <p>Universitas</p>
+                        <p>Hasanuddin</p>
                     </div>
                 </div>
             </div>
