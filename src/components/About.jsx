@@ -34,9 +34,9 @@ function About(){
                 <div class="profile-item">
                     <img src={team3} alt='salam' class="profile-img"/>
                     <div className="profile-desc"> 
-                        <h2 class="user-name">Andi Abdul {"\n"} Salam</h2>
+                        <h2 class="user-name">Andi Abdul {"\n"} Salam Sabil</h2>
                         <h3 class="user-path">Cloud Computing</h3>
-                        <p>Politeknika {"\n"} Elektro Surabaya</p>
+                        <p>Politeknik Elektronika {"\n"} Negeri Surabaya</p>
                     </div>
                 </div>
                     <div class="profile-item">
