@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from '../components/images/logo.png'
+import logo from '../components/images/logo.png';
 
 function Navbar(){
 
@@ -16,22 +16,22 @@ function Navbar(){
     window.addEventListener('scroll', changeBackground);
 
     return(
-       <nav className={nav ? 'nav active' : 'nav'}>
-           <a className='logo'>
+        <nav className={nav ? 'nav active' : 'nav'}>
+            <a href="#/" className='logo'>
                 <img src={logo} alt=''/>
            </a>
-           <input type='checkbox' className='btn-menu' id='btn-menu'/>
-           <label className='icon-menu' for='btn-menu'>
+            <input type='checkbox' className='btn-menu' id='btn-menu'/>
+            <label className='icon-menu' for='btn-menu'>
                <span className='nav-icon'></span>
-           </label>
-           <ul className='home-menu'>
-               <li><a href='#' className='active'>Home</a></li>
-               <li><a href='#'>Features</a></li>
-               <li><a href='#'>Interface</a></li>
-               <li><a href='#'>About Us</a></li>
-               <li><a href='#'>Download</a></li>
-           </ul>
-       </nav>
+            </label>
+            <ul className='home-menu'>
+                <li><a href='#main'>Home</a></li>
+                <li><a href='#features'>Features</a></li>
+                <li><a href='#interface'>Interface</a></li>
+                <li><a href='#about'>About Us</a></li>
+                <li><a href='#download'>Download</a></li>
+            </ul>
+        </nav>
     )
 }
 

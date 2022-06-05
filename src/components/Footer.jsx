@@ -5,15 +5,15 @@ function Footer(){
     return (
         <div id='footer'>
             <div className="footer-left">
-                <a className='footer-logo'>
-                    <img src={logo} alt=''/>
-                </a>
-                <p className="footer-links">
-                    <a href="#" class="link-1">Home</a>
-                    <a href="#">Features</a>
-                    <a href="#">Interface</a>
-                    <a href="#">About Us</a> 
-                </p>
+                <div className='footer-logo'>
+                    <img src={logo} alt='jadilogo'/>
+                </div>
+                <div className="footer-links">
+                    <a href="#main" class="link-1">Home</a>
+                    <a href="#feature">Features</a>
+                    <a href="#interface">Interface</a>
+                    <a href="#download">Download</a> 
+                </div>
             </div>
 
             <div className="footer-center">
@@ -33,7 +33,7 @@ function Footer(){
             <div className="footer-right">
                 <p className="footer-team-about">
                 <span>About Jamin Padi</span>
-                isi text disini
+                Jamin padi is an application developed with the aim of facilitating disease detection in rice plants, we focus on making our application useful for users, especially farmers.
                 </p>
             </div>
 
