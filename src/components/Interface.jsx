@@ -16,7 +16,7 @@ function Interface(){
             <InterfaceItem image={Interfaceimg1} title='Splash Screen'/>
             <InterfaceItem image={Interfaceimg2} title='Login Page'/>
             <InterfaceItem image={Interfaceimg3} title='Home Screen'/>
-            <InterfaceItem image={Interfaceimg4} title='Disease Scanning'/>
+            <InterfaceItem image={Interfaceimg4} title='Disease Result'/>
         </div>
     </div>
     )
