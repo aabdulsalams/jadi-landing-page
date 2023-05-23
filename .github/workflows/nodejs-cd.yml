@@ -19,5 +19,7 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         port: 22
         script: |
-          cd ~/
-          echo "masuk"
+          cd /home/ubuntu/capstone/jadi-landing-page/build
+          git pull origin master
+          npm install && npm run build
+          echo "done"
