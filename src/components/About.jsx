@@ -10,7 +10,7 @@ function About(){
     return(
         <div id='about'>
             <div className="about-header">
-                <h1 class="mb-3">Our Team Bleh Bleh</h1>
+                <h1 class="mb-3">Our Team</h1>
                 <h3 class="deskripsi">You can relay on our amazing features list and also our customer services</h3>
             </div>
 
